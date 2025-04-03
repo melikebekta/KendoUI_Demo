@@ -1,0 +1,25 @@
+/* Kendo UI özelleştirmeleri */
+.k-button.k-primary {
+    background-color: #4299e1;
+    border-color: #4299e1;
+}
+
+.k-button.k-primary:hover {
+    background-color: #3182ce;
+    border-color: #3182ce;
+}
+
+.k-dropdown {
+    width: 100%;
+}
+
+/* Mobil menü için özelleştirmeler */
+@media (max-width: 768px) {
+    .md\:mt-0 {
+        margin-top: 0;
+    }
+    
+    .md\:mt-14 {
+        margin-top: 3.5rem;
+    }
+}
