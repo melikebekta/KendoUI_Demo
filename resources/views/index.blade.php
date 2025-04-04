@@ -15,7 +15,7 @@
                             </div>
                             <div>
                                 <p class="text-gray-500 text-sm">Toplam Kullanıcı</p>
-                                <p class="text-xl font-bold">1,248</p>
+                                <p class="text-xl font-bold">{{ $user_count }}</p>
                             </div>
                         </div>
                     </div>
